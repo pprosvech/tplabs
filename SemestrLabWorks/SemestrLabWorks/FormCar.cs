@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace SemestrLabWorks
 {
-    public partial class Form1 : Form
+    public partial class FormCar : Form
     {
-        public Form1()
+        private Car _car;
+        public FormCar()
         {
             InitializeComponent();
         }
@@ -20,6 +21,20 @@ namespace SemestrLabWorks
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCreate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private class Car
+        {
         }
     }
 }
